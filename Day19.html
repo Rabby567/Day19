@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale:1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    
+    
+    
+    
+    <title>Day19</title>
+    
+    
+    <style type="text/css" media="all">
+    
+    
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu{
+      background-image: url(2.jpeg);
+      background-size: cover;
+    }
+    
+    .main-menu{
+      text-align: right;
+      height: 00px;
+      
+      
+    }
+    
+    
+    .main-menu li{
+      display: inline-block;
+      
+    }
+    
+    
+    .main-menu li a{
+      color: black;
+      text-decoration: none;
+      display: inline-block;
+      padding: 5px;
+      margin: 5px;
+      background: transparent;
+      border: 1px solid white;
+      
+    }
+    
+    .main-menu li a:hover{
+      background-color:#00ccff85 ;
+      transition: .5s;
+      border-color: black;
+      
+    }
+    
+    
+    .menu .bord {
+      color: black;
+      display: inline-block;
+      margin-left: 20px;
+      margin-bottom: 150px;
+      margin-top: 150px;
+      background-color: #e7f8fc68;
+      
+      
+      
+      
+    }
+    
+    
+    .menu .bord h1{
+      font-size:50px ;
+      word-spacing: 5px;
+      letter-spacing: 5px;
+      
+    }
+    
+      .menu .bord p{
+        font-size: 10px;
+      }
+      
+      
+      .company h4{
+        margin-top:10px;
+        margin-left: 18px;
+        word-spacing: 5px;
+        letter-spacing: 5px;
+        
+      }
+      
+      footer{
+        color:white;
+        background-color: black;
+        text-align: center;
+        font-size:3px;
+        word-spacing: 3px;
+        letter-spacing: 5px;
+        padding: 3px;
+      }
+      
+      .info{
+        display: inline-block;
+        background-color: #e7f8fc68;
+        
+        text-align:center;
+        padding: 50px;
+      }
+      
+      
+     .info .dev{
+       display: inline-block;
+        color: black;
+        margin-right: 0px;
+        
+        font-size: 10px;
+      }
+      
+      
+      .info .graphic{
+        
+        display:inline-block;
+        color: black;
+        margin-left: 58px;
+        font-size: 10px;
+        
+      }
+      
+      .info .dev img{
+        height: 30px;
+        width: 40px;
+        border-radius:50%;
+        box-shadow: 5px solid black;
+      }
+      
+      .info .graphic img{
+        height: 30px;
+        width: 40px;
+        border-radius:50%;
+      }
+      
+      
+      .info .market{
+        display: inline-block;
+        color: black;
+        font-size: 10px;
+        margin-left: 32px;
+      }
+      
+      .info .market img{
+        height: 30px;
+        width:40px;
+        border-radius:50%;
+      }
+      
+      .info .member{
+        margin-bottom: 40px;
+        font-size: 17px;
+        letter-spacing: 3px;
+      }
+      
+      .details{
+        font-size: 5px;
+        text-align: center;
+      }
+      
+      .details .about{
+        padding: 5px;
+        letter-spacing: 3px;
+      }
+      
+      .details p{
+        word-spacing: 3px;
+        
+      }
+      
+      .services{
+        display: inline-block;
+        
+        margin-left: 421px;
+        height: 20px;
+        text-align: center;
+        font-size:18px;
+        
+      }
+      
+      .service{
+        display:inline-block;
+        font-size: 12px;
+        padding: 5px;
+      }
+      
+      .service .devlop{
+        text-align: center;
+        display: inline-block;
+        background-color: #e7f8fc68;
+        height: 400px;
+        width: 280px;
+        margin-left: 4px;
+        border-radius: 5px;
+        
+      }
+      
+      .service .design{
+        text-align: center;
+        display: inline-block;
+        background-color: #e7f8fc68;
+        height: 400px;
+        width: 280px;
+        margin-left: 55px;
+        border-radius:5px;
+      }
+      
+      
+      .service .marketing{
+        text-align: center;
+        display: inline-block;
+        background-color:#e7f8fc68;
+        height: 400px;
+        width: 280px;
+        margin-left: 55px;
+        border-radius:5px;
+        
+        
+      }
+      
+      .devlop{
+        box-shadow:2px 2px 2px 2px rgba(0,0,0,0.2);
+      }
+      
+      
+      .design{
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+      }
+      
+      
+      
+      
+      .marketing{
+       box-shadow:2px 2px 2px 2px rgba(0,0,0,0.2);
+        
+      }
+      
+      
+      
+    </style>
+    
+    
+    
+    
+    
+  </head>
+  <body>
+    
+    
+    <div class="menu">
+      
+      
+   
+
+      
+      
+       
+      <ul class="main-menu">
+        
+        <li>
+          <a href="#">Home</a>
+        </li>
+        
+        
+        <li>
+          <a href="#">Service</a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="#">Clients</a>
+        </li>
+        
+        
+        <li>
+          <a href="#">Product</a>
+        </li>
+        
+        
+        <li>
+          <a href="#">About</a>
+        </li>
+        
+        
+        
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        
+        
+        
+      </ul>
+      
+      
+      
+      <div class="company">
+        
+        <h4>Creative Studio</h4>
+        
+        
+      </div>
+      
+      
+      
+      
+      <div class="bord">
+        
+         <h1>Best Choice For <br /> Business Plan</h1>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra pulvinar massa, <br /> sit amet scelerisque est sollicitudin sed. Sed vehicula iaculis sodales.<br /> Nam non purus sodales velit auctor finibus vel ac turpis.</p>
+        
+      </div>
+      
+      
+ 
+      
+      
+    </div>
+    
+    
+    
+    <div class="info">
+      
+      <h2 class="member">Founding Member</h2>
+      
+      <div class="dev">
+        
+        <img src="1.jpg" alt="" />
+        
+        <h2>Mr Alex Smith</h2>
+        <h3>Professional Web Devloper</h3>
+        <p>Integer dignissim sollicitudin odio ac <br />blandit. Phasellus volutpat odio elit, vitae porttitor <br />quam aliquet eget. Aliquam sed suscipit dui, <br />id commodo enim. </p>
+        
+      </div>
+      
+      <div class="graphic">
+        
+        <img src="2.jpg" alt="" />
+        
+        
+        <h2>Mr Abraham </h2>
+        <h3>Professional Graphic Designer</h3>
+        
+        <p>Integer dignissim sollicitudin odio ac <br />blandit. Phasellus volutpat odio elit, vitae porttitor quam <br />aliquet eget. Aliquam sed suscipit dui, <br />id commodo enim. </p>
+        
+      </div>
+      
+     <div class="market">
+       
+       
+       <img src="3.jpg" alt="" />
+        
+        <h2>Mr Johnny </h2>
+        <h3> Digital Marketing Expert</h3>
+        
+        
+        <p>Integer dignissim sollicitudin odio ac <br />blandit. Phasellus volutpat odio elit, vitae porttitor quam <br />aliquet eget. Aliquam sed suscipit dui, <br />id commodo enim.</p>
+      </div>
+      
+      
+    </div>
+    
+    
+      
+    
+    
+    <div class="services">
+      <h3>Our Service</h3>
+      
+      </div>
+      
+      <div class="service">
+        
+      
+      
+      <div class="devlop">
+        <h3>Web Development</h3>
+        
+        
+        <p> Websites are an integral part of any venture, to optimize and increase the credibility of it we offer customized web services for clients around the globe. Custom web application development is a method where we deal with web improvement whereby customization is actualized. It gives a unique essence including supreme functionality at the same time.
+
+There are numerous categories of websites where we hold a specialization such as static sites and many others. We believe in providing complete customization of websites or web application development, in assistance with modern technologies.
+
+Rendered below are the categories we develop and specialize in the development of applications or websites -
+
+Static Websites
+Editable Dynamic Websites
+E-commerce Websites
+Web Applications
+Front End Development (HTML5, CSS3, Bootstrap, RWD)
+Website Coding (PHP, JavaScript, jQuery, Ruby on Rails, .Net)
+Website Migration, Testing and Deployment
+Analytics and Call Tracking
+          
+          
+          
+          
+          
+        </p>
+        
+        
+      </div>
+      
+      <div class="design">
+        <h3>Graphic Design </h3>
+        <p>
+          
+          
+          
+        We work with a team of great visualizers and tech whizzes that help build a better virtual kingdom for you.
+
+        We work on the below platforms to deliver a better visual experience every time - <br />
+        Adobe Illustrator <br />
+        Corel Draw <br />
+        InDesign <br />
+        Adobe Photoshop <br />
+        Adobe Dreamweaver
+While there is a pleasure of diving in web technology after the rise of digitalization business ventures ideally opt ecommerce website design for sequential online experience. Linking the right audience to a scalable, integrated and aesthetically appealing web solution is essential for an enterprise's growth. There is nothing better than a good looking business website design which entices buyers to click on it. Need to design a website to grow your business? Get in touch with us.we are very happy that the reason of we can make client happy.
+          
+        </p>
+      </div>
+      
+      <div class="marketing">
+        <h3>Digital Marketing</h3>
+        
+        <p>One-click-at-a-time! With precise PPC <br />marketing you can spread your <br />business to the right target group and improvise conversion rates and ROI. An ineffectual PPC is equivalent to the trash in the bin, and we make sure to get most of your campaigns by constructing a captivating message compiling of the apt keywords, ad messaging and site experience to produce sales.
+
+We work on the below platforms to deliver a better PPC services every time -
+Google AdWords
+Bing Ads
+Yahoo Gemini
+Amazon Seller Central
+Our PPC experts provide extensive services like -
+Display Campaign
+Remarketing Campaign
+Shopping Campaign
+Search Advertising
+SEM (Search Engine Marketing)
+YouTube Marketing
+AMS (Amazon Marketing Services)
+Seller Central
+          
+          
+Increasing lead generation and sales - affiliate marketing is one of the often used media of marketing. We specialize in providing affiliate program solutions to traffic your enterprise with potential associates. We plan an affiliate.
+          
+          
+        </p>
+        
+        
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="details">
+      
+      <h3 class="about">About Our Company</h3>
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra pulvinar massa, sit amet sceler is queest sollicitudin sed. Sed vehicula <br />iaculis sodales. Nam non purus sodales velit auctor finibus vel ac turpis. Proin molestie tellus sit amet dolor faucibus viverra et a felis. <br />Donec nisl dui, tincidunt vitae purus non, porttitor volutpat purus. Aliquam consectetur leo egestas tortor dapibus fermentum. Cras ut ultricies orci, ut porttitor magna. Quisque ac rhoncus magna, a vulputate augue. Ut varius posuere ipsum, et tincidunt metus fermentum id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce iaculis non quam vel venenatis.<br />
+
+Integer dignissim sollicitudin odio ac blandit. Phasellus volutpat odio elit, vitae porttitor quam aliquet eget. Aliquam sed suscipit dui, id commodo enim. Curabitur quis eleifend mauris, sit amet tristique odio. Mauris fringilla pellentesque est, in fermentum nisl pretium egestas. Donec at ligula maximus, accumsan lorem vitae, egestas est. Maecenas et tincidunt purus. Morbi vestibulum metus eget mi efficitur, eu pellentesque turpis elementum.<br />
+
+Vestibulum mollis purus luctus ligula ultricies convallis. In faucibus ultricies nibh quis lacinia. Nullam vitae massa lectus. Ut in condimentum eros. Phasellus bibendum massa lacus, vitae vestibulum felis euismod ut. Vivamus ullamcorper pellentesque pulvinar. Vestibulum sit amet aliquam nisi, sit amet condimentum neque. Nulla hendrerit orci id magna accumsan, at fermentum nisl maximus.<br />
+
+Fusce fermentum tortor ac molestie posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent accumsan in metus eget sollicitudin. Duis condimentum cursus lacus. Ut non massa at turpis vestibulum vehicula. Pellentesque a hendrerit elit, finibus posuere felis. Etiam lobortis maximus sapien, eget condimentum odio pretium non. <br />Mauris vehicula velit sit amet mauris cursus ullamcorper. Etiam ligula lacus, tincidunt id ante id, dignissim lobortis erat. Ut venenatis condimentum elit, sed iaculis velit gravida ultrices. Proin rutrum massa et luctus posuere. Vestibulum tempus bibendum nisl et euismod. Etiam eget felis lacus. Proin viverra faucibus mi, in faucibus ante mollis et. Aliquam commodo leo sit amet condimentum gravida. Mauris at lectus congue, suscipit ex at, pulvinar turpis.<br />
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum vel felis neque. Morbi dictum, lectus eget tincidunt vulputate, turpis risus condimentum magna, ut sollicitudin ligula nisl eu lacus. Donec commodo, ex in venenatis dignissim, metus libero pharetra nisi, ut feugiat nisl ante et augue. Proin eget sollicitudin elit. <br />Nam nunc ex, convallis eu aliquam quis, laoreet vel tortor. Curabitur euismod leo nec maximus pretium. Morbi egestas malesuada varius. Suspendisse eu dolor blandit, scelerisque elit sed, scelerisque urna. Quisque id interdum mauris, id ultrices urna. Maecenas ligula odio, ultrices non commodo sit amet, pharetra id nisi. Morbi efficitur lobortis velit, ut consectetur sem viverra quis.</p>
+    </div>
+    
+    
+     
+      <footer>
+        All Credit Goes To Jillur Rahman
+      </footer>
+    
+    
+    
+  </body>
+</html>
